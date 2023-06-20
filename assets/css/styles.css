@@ -418,9 +418,11 @@ the website, in dark theme
 
 .about__img{
   width: 280px;
-  /* height: 500px; */
   justify-self: center;
-  border-radius: 5px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-top: 5rem;
+  border-radius: 10px;
 }
 
 .about__title{
@@ -526,7 +528,7 @@ the website, in dark theme
 
 .accordion-open .questions__icon{
   /* transform: rotate(45deg); */
-  transform: rotate(calc(45deg + 90deg + 90deg));
+  transform: rotate(calc(90deg + 90deg));
 }
 
 /*=============== CONTACT ===============*/
